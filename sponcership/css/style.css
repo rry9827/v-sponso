@@ -1,0 +1,422 @@
+p{
+  font-family: 'Raleway', sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+h2,h3,h4,h5,h6{
+  font-family: 'lato', sans-serif;
+}
+.navbar-brand img {
+    width: 114px;
+    padding: 7px;
+}
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: transparent;
+}
+.navbar {
+    background: transparent !important;
+	padding: 0;
+}
+div#navbarNav {
+    justify-content: flex-end;
+}
+.active a {
+    color: rgb(206, 206, 206) !important;
+}
+.nav-link:hover{
+	 color: rgba(206, 206, 206 , 0.7) !important;
+	 background:black !important;
+}
+.nav-link {
+    color: white !important;
+	text-transform: uppercase;
+    padding: 10px 17px !important;
+}
+.background-slider{
+  position: relative;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-overly{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.88);
+  z-index: 2;
+}
+.bg-overly1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.75);
+}
+.slider-data{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  color: white;
+  z-index: 3;
+}
+.slider-data a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: rgb(245, 241, 241);
+  background: black;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: cursive;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.slider-data h2{
+  font-family: cursive;
+  margin: 20px 0px;
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+}
+.sponcers{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left:0;
+  z-index: 2;
+}
+.sponcers h6{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.why-we{
+  position:relative;
+  padding: 100px 0px;
+  background: url(../images/why-we.jpg) no-repeat fixed center;
+  background-size : cover;
+}
+.why-we h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+.counter {
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px 0px;
+    font-weight: 700;
+}
+.achivement{
+  display: flex;
+  text-align: center;
+}
+.achivement h4{
+  text-transform: uppercase;
+  font-size: 15px;
+  color: rgb(103, 103, 103);
+  font-weight:600;
+}
+.achivement i.fa {
+    font-size: 58px;
+    width: 100%;
+}
+.benefit{
+  padding: 100px 0px;
+  text-align: center;
+  background: rgb(47, 47, 47);
+  color: white;
+  text-transform: uppercase;
+}
+.benefit h1{
+  margin-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+.benefit-data{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.benefit .col-12{
+  padding: 0px;
+}
+.benefit-data h2{
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
+}
+.benefit-data p{
+  margin: 20px;
+  text-transform: capitalize;
+  font-family: 'Raleway', sans-serif;
+}
+.col-reverse{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0px;
+}
+.benefit-data img{
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 20px;
+}
+.benefit-data img:hover ,.benefit-data img:focus{
+  box-shadow: 0px 10px 20px rgb(0, 0, 0);
+}
+.how-to-join{
+  position:relative;
+  padding: 100px 0px;
+  background: url(../images/how-bg.jpg) no-repeat fixed center;
+  background-size : cover;
+  text-align: center;
+  text-transform: capitalize;
+}
+.how-to-join h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.step{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.contact-us h3{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.contact-us h3 a{
+  color: black;
+  text-decoration: none;
+}
+.contact-us ul {
+    padding: 0px;
+    margin: 0;
+}
+.contact-us ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+}
+.contact-us ul li a {
+    font-size: 20px;
+    color: black;
+}
+.payment h3{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.payment h3 a{
+  color: black;
+  text-decoration: none;
+}
+.joining h3{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.faq{
+	position:relative;
+	padding:100px 0px;
+	background:rgb(243, 242, 242);
+}
+.faq h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+	color:black;
+}
+div#accordionid {
+    border-radius: 5px;
+}
+.card {
+   border: none;
+}
+.card-header {
+    padding: 0px;
+}
+button.btn.btn-link {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+	color:black;
+	border-radius: 0;
+}
+button.btn.btn-link:hover{
+	text-decoration:none;
+	background:rgb(218, 218, 218);
+}
+button.btn.btn-link span {
+    width: 95%;
+    display: inline-block;
+}
+.payment-section{
+	position:relative;
+	padding:100px 0px;
+	text-align:center;
+}
+.payment-section h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+.sub-payment{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-items:flex-end;
+}
+.sub-payment img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+.sub-payment h4 {
+    font-size: 20px;
+}
+.footer-section{
+	position:relative;
+	padding:70px 0px;
+	background: rgb(47, 47, 47);
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	background-image: url(../images/bg.png);
+	background-attachment:fixed;
+	background-position:bottom right;
+	background-repeat:no-repeat;
+}
+.sub-footer{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+.sub-footer img {
+    width: 100px;
+}
+.sub-footer ul {
+    padding: 4px 0px;
+    margin: 0;
+}
+.sub-footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+}
+.sub-footer ul li a {
+    color: white;
+    font-size: 19px;
+}
+.sub-footer a {
+    color: white;
+}
+.sub-footer a:hover ,.sub-footer a:focus{
+	text-decoration:none;
+}
+.sub-footer h4 {
+    margin-top: 50px;
+}
+.sub-footer p {
+    margin: 0;
+    font-size: 15px;
+}
+.sub-footer .fa{
+	padding:0px 10px;
+}
+.footer-section h6 {
+    color: rgb(87, 87, 87);
+}
+@media (max-width: 576px){
+  .col-reverse{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .payment{
+	  margin:25px 0px;
+  }
+  .achivement i.fa {
+    font-size: 35px;
+}
+.counter {
+    font-size: 20px;
+}
+.achivement h4{
+	font-size: 14px;
+}
+.benefit h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.benefit {
+    padding: 60px 0px;
+}
+.how-to-join {
+    padding: 70px 0px;
+}
+.how-to-join h3{
+	margin-bottom:7px;
+	font-size:23px;
+}
+.how-to-join h1 {
+    margin-bottom: 35px;
+	font-size:25px;
+}
+.contact-us ul li {
+    padding: 0px 6px;
+}
+.faq {
+	padding: 50px 0px;
+}
+.payment-section {
+    padding: 50px 0px;
+}
+.why-we{
+	padding:80px 0px;
+}
+.why-we h1{
+	font-size:25px;
+}
+.payment-section h1{
+	font-size:25px;
+	margin-bottom: 20px;
+}
+.sub-payment h4{
+	font-size:17px;
+	margin-bottom:25px;
+}
+.footer-section h6 {
+    margin-top: 20px;
+	font-size:12px;
+    margin-bottom: 14px;
+}
+.footer-section{
+	padding:50px 0px;
+	background-image: none;
+}
+.sub-footer h4 {
+    margin-top: 30px;
+}
+.sub-footer ul {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+div#navbarNav {
+    text-align: left !important;
+    padding: 20px;
+    background: rgb(52, 58, 64);
+}
+}
